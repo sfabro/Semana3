@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/textColorPrimary"
+    android:elevation="4dp"
+    android:theme="@style/ToolBarStyle"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+    >
+    <ImageButton
+        android:id="@+id/ibVolverActionBar"
+        android:src="@drawable/dogpaw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="120dp"
+        android:background="@null"
+    />
+    <TextView
+        android:id="@+id/tvTituloActionBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Petagram"
+        android:textColor="@color/textColorSecondary"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        android:layout_marginRight="120dp"
+        />
+
+    <ImageButton
+        android:id="@+id/ibMascotasFavoritas"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginRight="120dp"
+        android:layout_alignParentRight="true"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:src="@drawable/star"
+        tools:visibility="visible" />
+
+</androidx.appcompat.widget.Toolbar>
